@@ -1,0 +1,122 @@
+html {
+    max-width: 390px;
+    font-size: em;
+    background-color: #857da8;
+}
+
+
+header {
+    background-color: #302C42;
+}
+
+body {
+    background-color: #443f5e;
+}
+
+
+
+
+    .list {
+        margin-left: 195px;
+    }
+
+
+    .pink_girl {
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+
+
+    .dive {
+        margin-left: 10%;
+        margin-right: 10%;
+
+        p {
+            color: white;
+            
+        }
+
+        b {
+            font-size: 35px;
+            color: #8176AF;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        a button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #857da8;
+            font-size: 1.5em;
+            border-radius: 100px;
+            width: 100%;
+            height: 60px;
+            font-size: 1.3em;
+            font-weight: 700;
+            
+        }
+    }
+
+
+    
+    .place {
+        background-color: #302C42;
+        border-radius: 50px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+
+
+
+
+        h3 {
+            font-size: 0.8em;
+            color: white;
+            left: 105px;
+            position: relative;
+            bottom: 15px;
+            text-align: left;
+        }
+
+        a .arrows1 {
+            height: 30px;
+            width: 30px;
+            position:relative;
+            top: 35px;
+            right: 95px;
+        }
+        
+        a .arrows2 {
+            height: 30px;
+            width: 30px;
+            position:relative;
+            bottom: 55px;
+            left: 130px;
+        }
+
+        .places {
+            width: 70px;
+            position: relative;
+            right: 100px;
+            top: 35px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2f2a42;
+}

@@ -58,7 +58,7 @@ body {
 
 main {
   max-width: 390px;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .dive h4 {
@@ -71,7 +71,7 @@ main {
 .pink_girl {
   max-width: 100%;
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 0%;
 }
 
 .pink_girl .photo {
@@ -83,7 +83,7 @@ main {
 
 
   .dive {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 10%;
   }
   .dive p {
@@ -130,7 +130,7 @@ main {
     border-radius: 50px;
     width: 90%;
     text-align: center;
-    margin-left: 5%;
+    margin-left: %;
     height: 109px;
     display: flex;
     margin-top: 5%;
@@ -189,7 +189,7 @@ main {
 
   .intro {
     width: 220px;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -242,14 +242,14 @@ main {
   .redtext {
     margin-top: 30px;
     width: 90%;
-    margin-left: 4%;
+    margin-left: 0%;
     color: white;
   }
 
   .redtext h5 {
     font-size: 12px;
     font-weight: 400;
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   .redtext h2 {
@@ -288,7 +288,7 @@ main {
 /* Текст why */
 
   .why {
-    margin-left: 20%;
+    margin-left: 5%;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -397,7 +397,7 @@ main {
   .third {
     display: flex;
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 0%;
   }
 
   .third .l {
@@ -452,7 +452,7 @@ main {
     overflow: hidden;
     border-radius: 50px;
     margin-top: 50px;
-    margin-left: 3%;
+    margin-left: 0%;
   }
 
   .tech .photo .gl {
@@ -479,7 +479,7 @@ main {
   .vive {
     margin-top: -70px;
     display: flex;
-    margin-left: 15%;
+    margin-left: 5%;
     width: 80%;
   }
 
@@ -546,7 +546,7 @@ main {
     width: 250px;
     color: white;
     font-size: 2em;
-    margin-left: 20%;
+    margin-left: 10%;
 
   }
 
@@ -556,7 +556,7 @@ main {
     color: white;
     font-weight: 100;
     font-size: 2em;
-    margin-left: 20%;
+    margin-left: 10%;
 
   }
 
@@ -566,7 +566,7 @@ main {
     width: 198px;
     border-radius: 50%;
     display: flex;
-    margin-left: 25%;
+    margin-left: 15%;
     border-width: 20px;
     border-style: solid;
     border-color: #252231;
@@ -599,7 +599,7 @@ main {
     color: white;
     width: 180px;
     font-size: 22px;
-    margin-left: 10%;
+    margin-left: 0%;
     font-weight: 700;
   }
 
@@ -621,7 +621,7 @@ main {
     border-radius: 50px;
     padding: 10px;
 
-    margin-left: 10%;
+    margin-left: 0%;
   }
 
 /* Форма */
@@ -630,11 +630,12 @@ main {
   border: 1px solid rgb(255, 255, 255);
   background-color: #13121b00;
   color: white;
-  width: 100%;
+  width: 95%;
   height: 100%;
   border-radius: 40px;
   z-index: 1;
   text-indent: 25px;
+  margin-left: 0%;
 }
 
 
@@ -663,7 +664,7 @@ textarea::placeholder {
   border: 1px solid rgb(255, 255, 255);
   background-color: #13121b00;
   color: white;
-  width: 100%;
+  width: 95%;
   height: 100%;
   border-radius: 25px;
   z-index: 1;
@@ -672,11 +673,11 @@ textarea::placeholder {
 }
 
   .form {
-    width: 90%;
+    width: 320px;
     height: 950px;
     background: radial-gradient(#3A3456 10px, #13121b);
     border-radius: 40px;
-    margin-left: 6%;
+    margin-left: 0%;
   }
 
   .form h3 {
@@ -702,13 +703,13 @@ textarea::placeholder {
   }
 
   .form .smallboxes {
-    width: 300px;
+    width: 280px;
     height: 53px;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
-    margin-top: 25px;
-    margin-left: 15px;
+    margin-top: 45px;
+    margin-left: 25px;
   }
 
   .form .smallboxes h5 {
@@ -719,15 +720,57 @@ textarea::placeholder {
     font-size: 14px;
     font-weight: 100;
   }
+  
+
+  .form label {
+    position: absolute;
+    width: 250px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 15px;
+  }
+
+
+.form .firstname {
+  margin-top: -40px;
+}
+
+.form .email {
+  margin-top: -40px;
+}
+
+
+.form .lastname {
+  color: white;
+
+}
+
+.form .phone {
+  color: white;
+
+}
+
+.form .subject {
+  color: white;
+  margin-top: 5px;
+}
+.form .message {
+  display: none;
+}
+
+
 
   .form .bigbox {
-    width: 300px;
+    width: 280px;
     height: 220px;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .form .bigbox h5 {
@@ -742,7 +785,7 @@ textarea::placeholder {
   .form .btn {
 
     width: 276px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background: linear-gradient(to right,#8176AF 100px, #b1a3eb);
     border-radius: 100px;
@@ -766,7 +809,7 @@ textarea::placeholder {
     width: 185px;
     height: 186px;
     margin-top: 50px;
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
   .socialize h4 {
@@ -1672,7 +1715,7 @@ textarea::placeholder {
       border: 3px solid white;
       border-radius: 25px;
       color: white;
-      margin-top: 25px;
+      margin-top: 45px;
       margin-left: 45px;
     }
   
@@ -1685,13 +1728,56 @@ textarea::placeholder {
       font-weight: 100;
     }
   
+    .form label {
+      position: absolute;
+      width: 250px;
+      text-align: left;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+      font-size: 22px;
+      margin-left: 65px;
+      margin-top: 5px;
+    }
+  
+  
+  .form .firstname {
+    margin-top: -40px;
+  }
+  
+  .form .email {
+    margin-top: -40px;
+  }
+
+
+  .form .lastname {
+    color: white;
+  
+  }
+  
+  .form .phone {
+    color: white;
+  
+  }
+  
+  .form .subject {
+    color: white;
+    margin-top: 5px;
+  }
+  .form .message {
+    display: none;
+  }
+
+
+
+
+
     .form .bigbox {
       width: 400px;
-      height: 220px;
+      height: 180px;
       border: 3px solid white;
       border-radius: 25px;
       color: white;
-      margin-top: 25px;
+      margin-top: 35px;
       margin-left: 45px;
     }
   
@@ -1707,7 +1793,7 @@ textarea::placeholder {
     .form .btn {
   
       width: 250px;
-      margin-top: 40px;
+      margin-top: 30px;
       margin-bottom: 20px;
       background: linear-gradient(to right,#8176AF 100px, #b1a3eb);
       border-radius: 100px;
@@ -2831,7 +2917,7 @@ textarea::placeholder {
   border: 0px solid white;
   border-radius: 25px;
   color: white;
-  margin-top: 25px;
+  margin-top: 35px;
   margin-left: 45px;
 }
 
@@ -2844,13 +2930,54 @@ textarea::placeholder {
   font-weight: 100;
 }
 
+.form label {
+  position: absolute;
+  width: 250px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  right: 25%;
+  font-weight: 700;
+}
+
+.form .firstname, .email {
+  color: white;
+  left: 22%;
+  margin-top: 5px;
+
+}
+
+.form .lastname {
+  color: white;
+  left: 57%;
+  margin-top: 5px;
+
+}
+
+.form .phone {
+  color: white;
+  left: 57%;
+  margin-top: 5px;
+
+}
+
+.form .subject {
+  color: white;
+  left: 22%;
+  margin-top: 5px;
+}
+.form .message {
+  color: white;
+  left: 22%;
+  margin-top: 10px;
+}
+
 .form .bigbox {
   width: 87%;
   height: 220px;
   border: 0px solid white;
   border-radius: 25px;
   color: white;
-  margin-top: 25px;
+  margin-top: 45px;
   margin-left: 45px;
 }
 
@@ -4006,7 +4133,7 @@ margin-top: -1%;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: 45px;
   }
 
@@ -4019,13 +4146,49 @@ margin-top: -1%;
     font-weight: 100;
   }
 
+  .form label {
+    position: absolute;
+    width: 250px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 65px;
+    margin-top: 5px;
+  }
+
+
+
+.form .lastname {
+  color: white;
+  left: 51%;
+
+}
+
+.form .phone {
+  color: white;
+  left: 51%;
+
+}
+
+.form .subject {
+  color: white;
+  margin-top: 5px;
+}
+.form .message {
+  color: white;
+
+  margin-top: 5px;
+}
+
+
   .form .bigbox {
     width: 87%;
     height: 220px;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: 45px;
   }
 
@@ -5208,7 +5371,7 @@ margin-top: -1%;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: 45px;
   }
 
@@ -5221,13 +5384,51 @@ margin-top: -1%;
     font-weight: 100;
   }
 
+
+
+  .form label {
+    position: absolute;
+    width: 250px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 65px;
+    margin-top: 5px;
+  }
+
+
+
+.form .lastname {
+  color: white;
+  left: 50%;
+}
+
+.form .phone {
+  color: white;
+  left: 50%;
+}
+
+.form .subject {
+  color: white;
+  margin-top: 5px;
+}
+.form .message {
+  color: white;
+  left: 44%;
+}
+
+
+
+
+
   .form .bigbox {
     width: 87%;
     height: 220px;
     border: 0px solid white;
     border-radius: 25px;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: 45px;
   }
 
